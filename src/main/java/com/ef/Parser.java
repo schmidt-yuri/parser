@@ -45,7 +45,7 @@ public class Parser {
 		//AnnotationConfigApplicationContext
 		if(args.length != 4){
 			System.out.println("Please, enter arguments according to the following sample "
-					+ "java -cp 'parser.jar' com.ef.Parser "
+					+ "java -jar /path/to/file/parser.jar "
 					+ "--accesslog=/path/to/file --startDate=2017-01-01.13:00:00 "
 					+ "--duration=hourly/dayly --threshold=100");
 			return;
@@ -57,6 +57,7 @@ public class Parser {
 			ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
 			LogBean logBean = ctx.getBean(LogBean.class);
 			LogDao logDao = ctx.getBean(LogDao.class);
+	
 		
 			
 			String pathToFile = arguments[0]; //path to file

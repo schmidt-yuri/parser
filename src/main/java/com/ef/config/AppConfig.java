@@ -47,6 +47,7 @@ public class AppConfig {
 		
 	}
 	
+	
 	@Bean
 	public JdbcTemplate jdbcTemplate(){
 		return new JdbcTemplate(dataSources());

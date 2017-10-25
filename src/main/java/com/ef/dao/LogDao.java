@@ -13,8 +13,6 @@ public class LogDao {
 	@Autowired
 	JdbcTemplate jdbcTemplate;
 	
-//	@Autowired
-//	LogBean logBean;
 	
 	public void saveLogLine(LogBean lb){
 		

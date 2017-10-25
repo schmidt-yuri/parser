@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="com.ef.dao.DaoTest" time="1.375" errors="1" skipped="0">
+<testsuite tests="2" failures="1" name="com.ef.dao.DaoTest" time="18.61" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\bin"/>
-    <property name="java.vm.version" value="25.71-b15"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_152\bin"/>
+    <property name="java.vm.version" value="25.152-b16"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\STS_workspace\Parser"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,9 +17,9 @@
     <property name="sun.os.patch.level" value="Service Pack 3"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\STS_workspace\Parser"/>
-    <property name="java.runtime.version" value="1.8.0_71-b15"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_152\lib\endorsed"/>
     <property name="os.arch" value="x86"/>
     <property name="java.io.tmpdir" value="C:\DOCUME~1\yuri\LOCALS~1\Temp\"/>
     <property name="line.separator" value="
@@ -27,34 +27,37 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows XP"/>
-    <property name="classworlds.conf" value="C:\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_71\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Documents and Settings\All Users.WINDOWS\Application Data\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\Program Files\Common Files\Acronis\SnapAPI\;C:\Program Files\Java\jdk1.8.0_71\bin;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_71\bin;C:\Program Files\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\Git\cmd;C:\Program Files\Skype\Phone\;C:\Program Files\GitExtensions\;."/>
+    <property name="java.library.path" value="C:\Documents and Settings\All Users.WINDOWS\Application Data\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Documents and Settings\All Users.WINDOWS\Application Data\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\Program Files\Common Files\Acronis\SnapAPI\;C:\Program Files\Java\jdk1.8.0_152\bin;C:\apache-maven-3.5.2\bin;C:\Program Files\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\Git\cmd;C:\Program Files\Skype\Phone\;C:\Program Files\GitExtensions\;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.5.2\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
     <property name="os.version" value="5.1"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.5.2\bin\..\lib\jansi-native"/>
     <property name="user.home" value="C:\Documents and Settings\yuri"/>
     <property name="user.timezone" value="Europe/Helsinki"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1251"/>
     <property name="user.name" value="yuri"/>
-    <property name="java.class.path" value="C:\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="C:\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="32"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_71\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_152"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package -e -X"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="ru"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_71"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_152\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_152\lib\resources.jar;C:\Program Files\Java\jre1.8.0_152\lib\rt.jar;C:\Program Files\Java\jre1.8.0_152\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_152\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_152\lib\jce.jar;C:\Program Files\Java\jre1.8.0_152\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_152\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_152\classes"/>
     <property name="sun.stderr.encoding" value="cp866"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\apache-maven-3.3.9\bin\.."/>
+    <property name="maven.home" value="C:\apache-maven-3.5.2\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -63,14 +66,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase classname="com.ef.dao.DaoTest" name="testSaveThresholdIPs" time="0.906">
+  <testcase classname="com.ef.dao.DaoTest" name="testSaveThresholdIPs" time="3.266">
     <failure message="Ip1 is not correct expected:&lt;1[11.111.111].111&gt; but was:&lt;1[92.168.203].111&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: Ip1 is not correct expected:&lt;1[11.111.111].111&gt; but was:&lt;1[92.168.203].111&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at com.ef.dao.DaoTest.testSaveThresholdIPs(DaoTest.java:133)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
@@ -94,169 +97,169 @@
 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
-    <system-out>2017-10-25 16:36:30 DEBUG SpringJUnit4ClassRunner:140 - SpringJUnit4ClassRunner constructor called with [class com.ef.dao.DaoTest]
-2017-10-25 16:36:30 DEBUG BootstrapUtils:95 - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-2017-10-25 16:36:30 DEBUG BootstrapUtils:78 - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-2017-10-25 16:36:30 DEBUG BootstrapUtils:131 - Instantiating TestContextBootstrapper for test class [com.ef.dao.DaoTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
-2017-10-25 16:36:30 DEBUG AbstractDelegatingSmartContextLoader:96 - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@1ceabc1 declaringClass = &apos;com.ef.dao.DaoTest&apos;, classes = &apos;{}&apos;, locations = &apos;{}&apos;, inheritLocations = true, initializers = &apos;{}&apos;, inheritInitializers = true, name = [null], contextLoaderClass = &apos;org.springframework.test.context.ContextLoader&apos;].
-2017-10-25 16:36:30 DEBUG AbstractContextLoader:258 - Did not detect default resource location for test class [com.ef.dao.DaoTest]: class path resource [com/ef/dao/DaoTest-context.xml] does not exist
-2017-10-25 16:36:30 INFO  AbstractContextLoader:264 - Could not detect default resource locations for test class [com.ef.dao.DaoTest]: no resource found for suffixes {-context.xml}.
-2017-10-25 16:36:30 DEBUG AbstractDelegatingSmartContextLoader:96 - Delegating to AnnotationConfigContextLoader to process context configuration [ContextConfigurationAttributes@1ceabc1 declaringClass = &apos;com.ef.dao.DaoTest&apos;, classes = &apos;{}&apos;, locations = &apos;{}&apos;, inheritLocations = true, initializers = &apos;{}&apos;, inheritInitializers = true, name = [null], contextLoaderClass = &apos;org.springframework.test.context.ContextLoader&apos;].
-2017-10-25 16:36:30 INFO  AbstractDelegatingSmartContextLoader:192 - AnnotationConfigContextLoader detected default configuration classes for context configuration [ContextConfigurationAttributes@1ceabc1 declaringClass = &apos;com.ef.dao.DaoTest&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, locations = &apos;{}&apos;, inheritLocations = true, initializers = &apos;{}&apos;, inheritInitializers = true, name = [null], contextLoaderClass = &apos;org.springframework.test.context.ContextLoader&apos;].
-2017-10-25 16:36:30 DEBUG ActiveProfilesUtils:78 - Could not find an &apos;annotation declaring class&apos; for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.ef.dao.DaoTest]
-2017-10-25 16:36:30 DEBUG DefaultTestContextBootstrapper:132 - @TestExecutionListeners is not present for class [com.ef.dao.DaoTest]: using defaults.
-2017-10-25 16:36:30 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2017-10-25 16:36:30 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
-2017-10-25 16:36:30 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@45f292, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@12108b5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1a5c39e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@149dace, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@397ed7]
-2017-10-25 16:36:30 DEBUG ProfileValueUtils:68 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ef.dao.DaoTest]
-2017-10-25 16:36:30 DEBUG ProfileValueUtils:80 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ef.dao.DaoTest]
-2017-10-25 16:36:30 DEBUG ProfileValueUtils:68 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ef.dao.DaoTest]
-2017-10-25 16:36:30 DEBUG ProfileValueUtils:80 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ef.dao.DaoTest]
-2017-10-25 16:36:30 DEBUG AbstractDirtiesContextTestExecutionListener:141 - Before test class: context [DefaultTestContext@25a98f testClass = DaoTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1993335 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
-2017-10-25 16:36:30 DEBUG ProfileValueUtils:68 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ef.dao.DaoTest]
-2017-10-25 16:36:30 DEBUG ProfileValueUtils:80 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ef.dao.DaoTest]
-2017-10-25 16:36:30 DEBUG DependencyInjectionTestExecutionListener:81 - Performing dependency injection for test context [[DefaultTestContext@25a98f testClass = DaoTest, testInstance = com.ef.dao.DaoTest@b0338, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1993335 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]].
-2017-10-25 16:36:30 DEBUG AbstractDelegatingSmartContextLoader:106 - Delegating to AnnotationConfigContextLoader to load context from [MergedContextConfiguration@1993335 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]].
-2017-10-25 16:36:30 DEBUG AbstractGenericContextLoader:109 - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@1993335 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
-2017-10-25 16:36:30 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
-2017-10-25 16:36:30 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
-2017-10-25 16:36:30 DEBUG StandardEnvironment:124 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-2017-10-25 16:36:30 DEBUG AnnotationConfigContextLoader:192 - Registering annotated classes: {class com.ef.dao.DaoTest$Config}
-2017-10-25 16:36:31 INFO  GenericApplicationContext:582 - Refreshing org.springframework.context.support.GenericApplicationContext@116f93d: startup date [Wed Oct 25 16:36:31 EEST 2017]; root of context hierarchy
-2017-10-25 16:36:31 DEBUG GenericApplicationContext:616 - Bean factory for org.springframework.context.support.GenericApplicationContext@116f93d: org.springframework.beans.factory.support.DefaultListableBeanFactory@9d1c02: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,daoTest.Config]; root of factory hierarchy
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos; to allow for resolving potential circular references
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.ef.dao.DaoTest$Config.jdbcTemplate()
-2017-10-25 16:36:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.ef.dao.DaoTest$Config.logDao()
-2017-10-25 16:36:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.ef.dao.DaoTest$Config.logBean()
-2017-10-25 16:36:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.ef.dao.DaoTest$Config.dataSources()
-2017-10-25 16:36:31 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced com.ef.dao.DaoTest$Config; enhanced class name is: com.ef.dao.DaoTest$Config$$EnhancerBySpringCGLIB$$8c095c68
-2017-10-25 16:36:31 DEBUG ConfigurationClassPostProcessor:396 - Replacing bean definition &apos;daoTest.Config&apos; existing class &apos;com.ef.dao.DaoTest$Config&apos; with enhanced class &apos;com.ef.dao.DaoTest$Config$$EnhancerBySpringCGLIB$$8c095c68&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos; to allow for resolving potential circular references
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos; to allow for resolving potential circular references
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos; to allow for resolving potential circular references
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG GenericApplicationContext:733 - Unable to locate MessageSource with name &apos;messageSource&apos;: using default [org.springframework.context.support.DelegatingMessageSource@9f8c13]
-2017-10-25 16:36:31 DEBUG GenericApplicationContext:757 - Unable to locate ApplicationEventMulticaster with name &apos;applicationEventMulticaster&apos;: using default [org.springframework.context.event.SimpleApplicationEventMulticaster@22f9e2]
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:728 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@9d1c02: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,daoTest.Config,jdbcTemplate,logDao,logBean,dataSources]; root of factory hierarchy
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos; to allow for resolving potential circular references
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;org.springframework.context.event.internalEventListenerFactory&apos; to allow for resolving potential circular references
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;daoTest.Config&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;daoTest.Config&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;daoTest.Config&apos; to allow for resolving potential circular references
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;daoTest.Config&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;jdbcTemplate&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;jdbcTemplate&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;daoTest.Config&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;dataSources&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;dataSources&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;daoTest.Config&apos;
-2017-10-25 16:36:31 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;dataSources&apos; to allow for resolving potential circular references
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;dataSources&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;jdbcTemplate&apos; to allow for resolving potential circular references
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:1631 - Invoking afterPropertiesSet() on bean with name &apos;jdbcTemplate&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;jdbcTemplate&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;logDao&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;logDao&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;daoTest.Config&apos;
-2017-10-25 16:36:31 DEBUG InjectionMetadata:72 - Registered injected element on class [com.ef.dao.LogDao]: AutowiredFieldElement for org.springframework.jdbc.core.JdbcTemplate com.ef.dao.LogDao.jdbcTemplate
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;logDao&apos; to allow for resolving potential circular references
-2017-10-25 16:36:31 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;logDao&apos;: AutowiredFieldElement for org.springframework.jdbc.core.JdbcTemplate com.ef.dao.LogDao.jdbcTemplate
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;jdbcTemplate&apos;
-2017-10-25 16:36:31 DEBUG AutowiredAnnotationBeanPostProcessor:535 - Autowiring by type from bean name &apos;logDao&apos; to bean named &apos;jdbcTemplate&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;logDao&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;logBean&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;logBean&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;daoTest.Config&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;logBean&apos; to allow for resolving potential circular references
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;logBean&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;dataSources&apos;
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;
-2017-10-25 16:36:31 DEBUG GenericApplicationContext:784 - Unable to locate LifecycleProcessor with name &apos;lifecycleProcessor&apos;: using default [org.springframework.context.support.DefaultLifecycleProcessor@4fabc8]
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;lifecycleProcessor&apos;
-2017-10-25 16:36:31 DEBUG PropertySourcesPropertyResolver:91 - Could not find key &apos;spring.liveBeansView.mbeanDomain&apos; in any property source
-2017-10-25 16:36:31 DEBUG DefaultCacheAwareContextLoaderDelegate:118 - Storing ApplicationContext in cache under key [[MergedContextConfiguration@1993335 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]
-2017-10-25 16:36:31 DEBUG cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@13b84b8 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
-2017-10-25 16:36:31 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;com.ef.dao.DaoTest&apos;: AutowiredFieldElement for private org.springframework.jdbc.core.JdbcTemplate com.ef.dao.DaoTest.jdbcTemplate
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;jdbcTemplate&apos;
-2017-10-25 16:36:31 DEBUG AutowiredAnnotationBeanPostProcessor:535 - Autowiring by type from bean name &apos;com.ef.dao.DaoTest&apos; to bean named &apos;jdbcTemplate&apos;
-2017-10-25 16:36:31 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;com.ef.dao.DaoTest&apos;: AutowiredFieldElement for private com.ef.model.LogBean com.ef.dao.DaoTest.logBean
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;logBean&apos;
-2017-10-25 16:36:31 DEBUG AutowiredAnnotationBeanPostProcessor:535 - Autowiring by type from bean name &apos;com.ef.dao.DaoTest&apos; to bean named &apos;logBean&apos;
-2017-10-25 16:36:31 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;com.ef.dao.DaoTest&apos;: AutowiredFieldElement for private com.ef.dao.LogDao com.ef.dao.DaoTest.logDao
-2017-10-25 16:36:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;logDao&apos;
-2017-10-25 16:36:31 DEBUG AutowiredAnnotationBeanPostProcessor:535 - Autowiring by type from bean name &apos;com.ef.dao.DaoTest&apos; to bean named &apos;logDao&apos;
-2017-10-25 16:36:32 DEBUG AbstractDirtiesContextTestExecutionListener:106 - Before test method: context [DefaultTestContext@25a98f testClass = DaoTest, testInstance = com.ef.dao.DaoTest@b0338, testMethod = testSaveThresholdIPs@DaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1993335 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
-2017-10-25 16:36:32 DEBUG JdbcTemplate:869 - Executing prepared SQL update
-2017-10-25 16:36:32 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [insert into blockedip (ip, comments) values (?, ?)]
-2017-10-25 16:36:32 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
-2017-10-25 16:36:32 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
-2017-10-25 16:36:32 DEBUG JdbcTemplate:879 - SQL update affected 1 rows
-2017-10-25 16:36:32 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
-2017-10-25 16:36:32 DEBUG JdbcTemplate:869 - Executing prepared SQL update
-2017-10-25 16:36:32 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [insert into blockedip (ip, comments) values (?, ?)]
-2017-10-25 16:36:32 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
-2017-10-25 16:36:32 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
-2017-10-25 16:36:32 DEBUG JdbcTemplate:879 - SQL update affected 1 rows
-2017-10-25 16:36:32 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
-2017-10-25 16:36:32 DEBUG JdbcTemplate:869 - Executing prepared SQL update
-2017-10-25 16:36:32 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [insert into blockedip (ip, comments) values (?, ?)]
-2017-10-25 16:36:32 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
-2017-10-25 16:36:32 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
-2017-10-25 16:36:32 DEBUG JdbcTemplate:879 - SQL update affected 1 rows
-2017-10-25 16:36:32 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
-2017-10-25 16:36:32 DEBUG JdbcTemplate:682 - Executing prepared SQL query
-2017-10-25 16:36:32 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [select ip from blockedip where id = ?]
-2017-10-25 16:36:32 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
-2017-10-25 16:36:32 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
-2017-10-25 16:36:32 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+    <system-out>2017-10-25 22:23:22 DEBUG SpringJUnit4ClassRunner:140 - SpringJUnit4ClassRunner constructor called with [class com.ef.dao.DaoTest]
+2017-10-25 22:23:22 DEBUG BootstrapUtils:95 - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2017-10-25 22:23:22 DEBUG BootstrapUtils:78 - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2017-10-25 22:23:22 DEBUG BootstrapUtils:131 - Instantiating TestContextBootstrapper for test class [com.ef.dao.DaoTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2017-10-25 22:23:22 DEBUG AbstractDelegatingSmartContextLoader:96 - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@15eef3d declaringClass = &apos;com.ef.dao.DaoTest&apos;, classes = &apos;{}&apos;, locations = &apos;{}&apos;, inheritLocations = true, initializers = &apos;{}&apos;, inheritInitializers = true, name = [null], contextLoaderClass = &apos;org.springframework.test.context.ContextLoader&apos;].
+2017-10-25 22:23:22 DEBUG AbstractContextLoader:258 - Did not detect default resource location for test class [com.ef.dao.DaoTest]: class path resource [com/ef/dao/DaoTest-context.xml] does not exist
+2017-10-25 22:23:22 INFO  AbstractContextLoader:264 - Could not detect default resource locations for test class [com.ef.dao.DaoTest]: no resource found for suffixes {-context.xml}.
+2017-10-25 22:23:22 DEBUG AbstractDelegatingSmartContextLoader:96 - Delegating to AnnotationConfigContextLoader to process context configuration [ContextConfigurationAttributes@15eef3d declaringClass = &apos;com.ef.dao.DaoTest&apos;, classes = &apos;{}&apos;, locations = &apos;{}&apos;, inheritLocations = true, initializers = &apos;{}&apos;, inheritInitializers = true, name = [null], contextLoaderClass = &apos;org.springframework.test.context.ContextLoader&apos;].
+2017-10-25 22:23:22 INFO  AbstractDelegatingSmartContextLoader:192 - AnnotationConfigContextLoader detected default configuration classes for context configuration [ContextConfigurationAttributes@15eef3d declaringClass = &apos;com.ef.dao.DaoTest&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, locations = &apos;{}&apos;, inheritLocations = true, initializers = &apos;{}&apos;, inheritInitializers = true, name = [null], contextLoaderClass = &apos;org.springframework.test.context.ContextLoader&apos;].
+2017-10-25 22:23:23 DEBUG ActiveProfilesUtils:78 - Could not find an &apos;annotation declaring class&apos; for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.ef.dao.DaoTest]
+2017-10-25 22:23:23 DEBUG DefaultTestContextBootstrapper:132 - @TestExecutionListeners is not present for class [com.ef.dao.DaoTest]: using defaults.
+2017-10-25 22:23:23 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-25 22:23:23 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2017-10-25 22:23:23 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@12108b5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1a5c39e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@149dace, org.springframework.test.context.transaction.TransactionalTestExecutionListener@397ed7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@10ab905]
+2017-10-25 22:23:23 DEBUG ProfileValueUtils:68 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ef.dao.DaoTest]
+2017-10-25 22:23:23 DEBUG ProfileValueUtils:80 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ef.dao.DaoTest]
+2017-10-25 22:23:23 DEBUG ProfileValueUtils:68 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ef.dao.DaoTest]
+2017-10-25 22:23:23 DEBUG ProfileValueUtils:80 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ef.dao.DaoTest]
+2017-10-25 22:23:23 DEBUG AbstractDirtiesContextTestExecutionListener:141 - Before test class: context [DefaultTestContext@1993335 testClass = DaoTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@322d26 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+2017-10-25 22:23:23 DEBUG ProfileValueUtils:68 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ef.dao.DaoTest]
+2017-10-25 22:23:23 DEBUG ProfileValueUtils:80 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ef.dao.DaoTest]
+2017-10-25 22:23:23 DEBUG DependencyInjectionTestExecutionListener:81 - Performing dependency injection for test context [[DefaultTestContext@1993335 testClass = DaoTest, testInstance = com.ef.dao.DaoTest@17faa95, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@322d26 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]].
+2017-10-25 22:23:23 DEBUG AbstractDelegatingSmartContextLoader:106 - Delegating to AnnotationConfigContextLoader to load context from [MergedContextConfiguration@322d26 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]].
+2017-10-25 22:23:23 DEBUG AbstractGenericContextLoader:109 - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@322d26 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+2017-10-25 22:23:23 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-10-25 22:23:23 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-10-25 22:23:23 DEBUG StandardEnvironment:124 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-10-25 22:23:23 DEBUG AnnotationConfigContextLoader:192 - Registering annotated classes: {class com.ef.dao.DaoTest$Config}
+2017-10-25 22:23:23 INFO  GenericApplicationContext:582 - Refreshing org.springframework.context.support.GenericApplicationContext@1b92f0a: startup date [Wed Oct 25 22:23:23 EEST 2017]; root of context hierarchy
+2017-10-25 22:23:23 DEBUG GenericApplicationContext:616 - Bean factory for org.springframework.context.support.GenericApplicationContext@1b92f0a: org.springframework.beans.factory.support.DefaultListableBeanFactory@eeefeb: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,daoTest.Config]; root of factory hierarchy
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos; to allow for resolving potential circular references
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.ef.dao.DaoTest$Config.logDao()
+2017-10-25 22:23:23 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.ef.dao.DaoTest$Config.jdbcTemplate()
+2017-10-25 22:23:23 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.ef.dao.DaoTest$Config.logBean()
+2017-10-25 22:23:23 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.ef.dao.DaoTest$Config.dataSources()
+2017-10-25 22:23:23 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced com.ef.dao.DaoTest$Config; enhanced class name is: com.ef.dao.DaoTest$Config$$EnhancerBySpringCGLIB$$890d4cb8
+2017-10-25 22:23:23 DEBUG ConfigurationClassPostProcessor:396 - Replacing bean definition &apos;daoTest.Config&apos; existing class &apos;com.ef.dao.DaoTest$Config&apos; with enhanced class &apos;com.ef.dao.DaoTest$Config$$EnhancerBySpringCGLIB$$890d4cb8&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos; to allow for resolving potential circular references
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos; to allow for resolving potential circular references
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos; to allow for resolving potential circular references
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG GenericApplicationContext:733 - Unable to locate MessageSource with name &apos;messageSource&apos;: using default [org.springframework.context.support.DelegatingMessageSource@e50ce6]
+2017-10-25 22:23:23 DEBUG GenericApplicationContext:757 - Unable to locate ApplicationEventMulticaster with name &apos;applicationEventMulticaster&apos;: using default [org.springframework.context.event.SimpleApplicationEventMulticaster@419631]
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:728 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@eeefeb: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,daoTest.Config,logDao,jdbcTemplate,logBean,dataSources]; root of factory hierarchy
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos;
+2017-10-25 22:23:23 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos; to allow for resolving potential circular references
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;org.springframework.context.event.internalEventListenerFactory&apos; to allow for resolving potential circular references
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;daoTest.Config&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;daoTest.Config&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;daoTest.Config&apos; to allow for resolving potential circular references
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;daoTest.Config&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;logDao&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;logDao&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;daoTest.Config&apos;
+2017-10-25 22:23:24 DEBUG InjectionMetadata:72 - Registered injected element on class [com.ef.dao.LogDao]: AutowiredFieldElement for org.springframework.jdbc.core.JdbcTemplate com.ef.dao.LogDao.jdbcTemplate
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;logDao&apos; to allow for resolving potential circular references
+2017-10-25 22:23:24 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;logDao&apos;: AutowiredFieldElement for org.springframework.jdbc.core.JdbcTemplate com.ef.dao.LogDao.jdbcTemplate
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;jdbcTemplate&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;jdbcTemplate&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;daoTest.Config&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;dataSources&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;dataSources&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;daoTest.Config&apos;
+2017-10-25 22:23:24 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;dataSources&apos; to allow for resolving potential circular references
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;dataSources&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;jdbcTemplate&apos; to allow for resolving potential circular references
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:1631 - Invoking afterPropertiesSet() on bean with name &apos;jdbcTemplate&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;jdbcTemplate&apos;
+2017-10-25 22:23:24 DEBUG AutowiredAnnotationBeanPostProcessor:535 - Autowiring by type from bean name &apos;logDao&apos; to bean named &apos;jdbcTemplate&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;logDao&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;jdbcTemplate&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;logBean&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;logBean&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;daoTest.Config&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;logBean&apos; to allow for resolving potential circular references
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;logBean&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;dataSources&apos;
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;
+2017-10-25 22:23:24 DEBUG GenericApplicationContext:784 - Unable to locate LifecycleProcessor with name &apos;lifecycleProcessor&apos;: using default [org.springframework.context.support.DefaultLifecycleProcessor@d04d3d]
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;lifecycleProcessor&apos;
+2017-10-25 22:23:24 DEBUG PropertySourcesPropertyResolver:91 - Could not find key &apos;spring.liveBeansView.mbeanDomain&apos; in any property source
+2017-10-25 22:23:24 DEBUG DefaultCacheAwareContextLoaderDelegate:118 - Storing ApplicationContext in cache under key [[MergedContextConfiguration@322d26 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]
+2017-10-25 22:23:24 DEBUG cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@1a3af25 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+2017-10-25 22:23:24 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;com.ef.dao.DaoTest&apos;: AutowiredFieldElement for private org.springframework.jdbc.core.JdbcTemplate com.ef.dao.DaoTest.jdbcTemplate
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;jdbcTemplate&apos;
+2017-10-25 22:23:24 DEBUG AutowiredAnnotationBeanPostProcessor:535 - Autowiring by type from bean name &apos;com.ef.dao.DaoTest&apos; to bean named &apos;jdbcTemplate&apos;
+2017-10-25 22:23:24 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;com.ef.dao.DaoTest&apos;: AutowiredFieldElement for private com.ef.model.LogBean com.ef.dao.DaoTest.logBean
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;logBean&apos;
+2017-10-25 22:23:24 DEBUG AutowiredAnnotationBeanPostProcessor:535 - Autowiring by type from bean name &apos;com.ef.dao.DaoTest&apos; to bean named &apos;logBean&apos;
+2017-10-25 22:23:24 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;com.ef.dao.DaoTest&apos;: AutowiredFieldElement for private com.ef.dao.LogDao com.ef.dao.DaoTest.logDao
+2017-10-25 22:23:24 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;logDao&apos;
+2017-10-25 22:23:24 DEBUG AutowiredAnnotationBeanPostProcessor:535 - Autowiring by type from bean name &apos;com.ef.dao.DaoTest&apos; to bean named &apos;logDao&apos;
+2017-10-25 22:23:24 DEBUG AbstractDirtiesContextTestExecutionListener:106 - Before test method: context [DefaultTestContext@1993335 testClass = DaoTest, testInstance = com.ef.dao.DaoTest@17faa95, testMethod = testSaveThresholdIPs@DaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@322d26 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2017-10-25 22:23:24 DEBUG JdbcTemplate:869 - Executing prepared SQL update
+2017-10-25 22:23:24 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [insert into blockedip (ip, comments) values (?, ?)]
+2017-10-25 22:23:24 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2017-10-25 22:23:24 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
+2017-10-25 22:23:25 DEBUG JdbcTemplate:879 - SQL update affected 1 rows
+2017-10-25 22:23:25 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2017-10-25 22:23:25 DEBUG JdbcTemplate:869 - Executing prepared SQL update
+2017-10-25 22:23:25 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [insert into blockedip (ip, comments) values (?, ?)]
+2017-10-25 22:23:25 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2017-10-25 22:23:25 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
+2017-10-25 22:23:25 DEBUG JdbcTemplate:879 - SQL update affected 1 rows
+2017-10-25 22:23:25 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2017-10-25 22:23:25 DEBUG JdbcTemplate:869 - Executing prepared SQL update
+2017-10-25 22:23:25 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [insert into blockedip (ip, comments) values (?, ?)]
+2017-10-25 22:23:25 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2017-10-25 22:23:25 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
+2017-10-25 22:23:25 DEBUG JdbcTemplate:879 - SQL update affected 1 rows
+2017-10-25 22:23:25 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2017-10-25 22:23:25 DEBUG JdbcTemplate:682 - Executing prepared SQL query
+2017-10-25 22:23:25 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [select ip from blockedip where id = ?]
+2017-10-25 22:23:25 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2017-10-25 22:23:25 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
+2017-10-25 22:23:25 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
 ip1 = 192.168.203.111
-2017-10-25 16:36:32 DEBUG JdbcTemplate:682 - Executing prepared SQL query
-2017-10-25 16:36:32 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [select ip from blockedip where id = ?]
-2017-10-25 16:36:32 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
-2017-10-25 16:36:32 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
-2017-10-25 16:36:32 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2017-10-25 22:23:25 DEBUG JdbcTemplate:682 - Executing prepared SQL query
+2017-10-25 22:23:25 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [select ip from blockedip where id = ?]
+2017-10-25 22:23:25 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2017-10-25 22:23:25 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
+2017-10-25 22:23:25 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
 ip2 = 192.168.51.205
-2017-10-25 16:36:32 DEBUG JdbcTemplate:682 - Executing prepared SQL query
-2017-10-25 16:36:32 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [select ip from blockedip where id = ?]
-2017-10-25 16:36:32 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
-2017-10-25 16:36:32 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
-2017-10-25 16:36:32 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2017-10-25 22:23:25 DEBUG JdbcTemplate:682 - Executing prepared SQL query
+2017-10-25 22:23:25 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [select ip from blockedip where id = ?]
+2017-10-25 22:23:25 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2017-10-25 22:23:25 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
+2017-10-25 22:23:25 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
 ip3 = 192.168.185.164
-2017-10-25 16:36:32 DEBUG AbstractDirtiesContextTestExecutionListener:106 - After test method: context [DefaultTestContext@25a98f testClass = DaoTest, testInstance = com.ef.dao.DaoTest@b0338, testMethod = testSaveThresholdIPs@DaoTest, testException = org.junit.ComparisonFailure: Ip1 is not correct expected:&lt;1[11.111.111].111&gt; but was:&lt;1[92.168.203].111&gt;, mergedContextConfiguration = [MergedContextConfiguration@1993335 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2017-10-25 22:23:25 DEBUG AbstractDirtiesContextTestExecutionListener:106 - After test method: context [DefaultTestContext@1993335 testClass = DaoTest, testInstance = com.ef.dao.DaoTest@17faa95, testMethod = testSaveThresholdIPs@DaoTest, testException = org.junit.ComparisonFailure: Ip1 is not correct expected:&lt;1[11.111.111].111&gt; but was:&lt;1[92.168.203].111&gt;, mergedContextConfiguration = [MergedContextConfiguration@322d26 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
 </system-out>
   </testcase>
-  <testcase classname="com.ef.dao.DaoTest" name="testSaveLogLine" time="0.469">
+  <testcase classname="com.ef.dao.DaoTest" name="testSaveLogLine" time="15.344">
     <error message="PreparedStatementCallback; bad SQL grammar [select date, ip, request, status, user_agent from logfile where id = ?]; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column &apos;date&apos; in &apos;field list&apos;" type="org.springframework.jdbc.BadSqlGrammarException">org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select date, ip, request, status, user_agent from logfile where id = ?]; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column &apos;date&apos; in &apos;field list&apos;
 	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:231)
 	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
@@ -267,9 +270,9 @@ ip3 = 192.168.185.164
 	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:794)
 	at com.ef.dao.DaoTest.testSaveLogLine(DaoTest.java:79)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
@@ -293,9 +296,9 @@ ip3 = 192.168.185.164
 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
@@ -303,9 +306,9 @@ ip3 = 192.168.185.164
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column &apos;date&apos; in &apos;field list&apos;
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
 	at com.mysql.jdbc.Util.getInstance(Util.java:408)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
@@ -320,89 +323,89 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown co
 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
 	... 40 more
 </error>
-    <system-out>2017-10-25 16:36:32 DEBUG ProfileValueUtils:68 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ef.dao.DaoTest]
-2017-10-25 16:36:32 DEBUG ProfileValueUtils:80 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ef.dao.DaoTest]
-2017-10-25 16:36:32 DEBUG DependencyInjectionTestExecutionListener:81 - Performing dependency injection for test context [[DefaultTestContext@25a98f testClass = DaoTest, testInstance = com.ef.dao.DaoTest@773a3, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1993335 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]].
-2017-10-25 16:36:32 DEBUG DefaultCacheAwareContextLoaderDelegate:129 - Retrieved ApplicationContext from cache with key [[MergedContextConfiguration@1993335 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]
-2017-10-25 16:36:32 DEBUG cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@13b84b8 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]
-2017-10-25 16:36:32 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;com.ef.dao.DaoTest&apos;: AutowiredFieldElement for private org.springframework.jdbc.core.JdbcTemplate com.ef.dao.DaoTest.jdbcTemplate
-2017-10-25 16:36:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;jdbcTemplate&apos;
-2017-10-25 16:36:32 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;com.ef.dao.DaoTest&apos;: AutowiredFieldElement for private com.ef.model.LogBean com.ef.dao.DaoTest.logBean
-2017-10-25 16:36:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;logBean&apos;
-2017-10-25 16:36:32 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;com.ef.dao.DaoTest&apos;: AutowiredFieldElement for private com.ef.dao.LogDao com.ef.dao.DaoTest.logDao
-2017-10-25 16:36:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;logDao&apos;
-2017-10-25 16:36:32 DEBUG AbstractDirtiesContextTestExecutionListener:106 - Before test method: context [DefaultTestContext@25a98f testClass = DaoTest, testInstance = com.ef.dao.DaoTest@773a3, testMethod = testSaveLogLine@DaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1993335 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
-2017-10-25 16:36:32 DEBUG JdbcTemplate:869 - Executing prepared SQL update
-2017-10-25 16:36:32 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [insert into logfile (rqdate, ip, request, status, user_agent) values (?, ?, ?, ?, ?)]
-2017-10-25 16:36:32 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
-2017-10-25 16:36:32 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
-2017-10-25 16:36:33 DEBUG JdbcTemplate:879 - SQL update affected 1 rows
-2017-10-25 16:36:33 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
-2017-10-25 16:36:33 DEBUG JdbcTemplate:682 - Executing prepared SQL query
-2017-10-25 16:36:33 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [select date, ip, request, status, user_agent from logfile where id = ?]
-2017-10-25 16:36:33 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
-2017-10-25 16:36:33 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
-2017-10-25 16:36:33 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
-2017-10-25 16:36:33 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
-2017-10-25 16:36:33 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
-2017-10-25 16:36:33 DEBUG StandardEnvironment:124 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-2017-10-25 16:36:33 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
-2017-10-25 16:36:33 DEBUG DefaultDocumentLoader:73 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
-2017-10-25 16:36:33 DEBUG BeansDtdResolver:74 - Found beans DTD [http://www.springframework.org/dtd/spring-beans-2.0.dtd] in classpath: spring-beans-2.0.dtd
-2017-10-25 16:36:33 DEBUG DefaultBeanDefinitionDocumentReader:92 - Loading bean definitions
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;DB2&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;DB2&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;DB2&apos; to allow for resolving potential circular references
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;DB2&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;Derby&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;Derby&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;Derby&apos; to allow for resolving potential circular references
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;Derby&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;H2&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;H2&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;H2&apos; to allow for resolving potential circular references
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;H2&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;HSQL&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;HSQL&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;HSQL&apos; to allow for resolving potential circular references
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;HSQL&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;Informix&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;Informix&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;Informix&apos; to allow for resolving potential circular references
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;Informix&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;MS-SQL&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;MS-SQL&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;MS-SQL&apos; to allow for resolving potential circular references
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;MS-SQL&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;MySQL&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;MySQL&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;MySQL&apos; to allow for resolving potential circular references
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;MySQL&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;Oracle&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;Oracle&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;Oracle&apos; to allow for resolving potential circular references
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;Oracle&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;PostgreSQL&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;PostgreSQL&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;PostgreSQL&apos; to allow for resolving potential circular references
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;PostgreSQL&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;Sybase&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;Sybase&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;Sybase&apos; to allow for resolving potential circular references
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;Sybase&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;Hana&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;Hana&apos;
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;Hana&apos; to allow for resolving potential circular references
-2017-10-25 16:36:33 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;Hana&apos;
-2017-10-25 16:36:33 INFO  SQLErrorCodesFactory:127 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
-2017-10-25 16:36:33 DEBUG SQLErrorCodesFactory:200 - Looking up default SQLErrorCodes for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@fcf36f]
-2017-10-25 16:36:33 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
-2017-10-25 16:36:33 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
-2017-10-25 16:36:33 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
-2017-10-25 16:36:33 DEBUG SQLErrorCodesFactory:176 - SQL error codes for &apos;MySQL&apos; found
-2017-10-25 16:36:33 DEBUG SQLErrorCodesFactory:244 - Caching SQL error codes for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@fcf36f]: database product name is &apos;MySQL&apos;
-2017-10-25 16:36:33 DEBUG SQLErrorCodeSQLExceptionTranslator:397 - Translating SQLException with SQL state &apos;42S22&apos;, error code &apos;1054&apos;, message [Unknown column &apos;date&apos; in &apos;field list&apos;]; SQL was [select date, ip, request, status, user_agent from logfile where id = ?] for task [PreparedStatementCallback]
-2017-10-25 16:36:33 DEBUG AbstractDirtiesContextTestExecutionListener:106 - After test method: context [DefaultTestContext@25a98f testClass = DaoTest, testInstance = com.ef.dao.DaoTest@773a3, testMethod = testSaveLogLine@DaoTest, testException = org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select date, ip, request, status, user_agent from logfile where id = ?]; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column &apos;date&apos; in &apos;field list&apos;, mergedContextConfiguration = [MergedContextConfiguration@1993335 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+    <system-out>2017-10-25 22:23:25 DEBUG ProfileValueUtils:68 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ef.dao.DaoTest]
+2017-10-25 22:23:25 DEBUG ProfileValueUtils:80 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ef.dao.DaoTest]
+2017-10-25 22:23:25 DEBUG DependencyInjectionTestExecutionListener:81 - Performing dependency injection for test context [[DefaultTestContext@1993335 testClass = DaoTest, testInstance = com.ef.dao.DaoTest@1f1104d, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@322d26 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]].
+2017-10-25 22:23:25 DEBUG DefaultCacheAwareContextLoaderDelegate:129 - Retrieved ApplicationContext from cache with key [[MergedContextConfiguration@322d26 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]
+2017-10-25 22:23:25 DEBUG cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@1a3af25 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]
+2017-10-25 22:23:25 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;com.ef.dao.DaoTest&apos;: AutowiredFieldElement for private org.springframework.jdbc.core.JdbcTemplate com.ef.dao.DaoTest.jdbcTemplate
+2017-10-25 22:23:25 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;jdbcTemplate&apos;
+2017-10-25 22:23:25 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;com.ef.dao.DaoTest&apos;: AutowiredFieldElement for private com.ef.model.LogBean com.ef.dao.DaoTest.logBean
+2017-10-25 22:23:25 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;logBean&apos;
+2017-10-25 22:23:25 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;com.ef.dao.DaoTest&apos;: AutowiredFieldElement for private com.ef.dao.LogDao com.ef.dao.DaoTest.logDao
+2017-10-25 22:23:25 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean &apos;logDao&apos;
+2017-10-25 22:23:25 DEBUG AbstractDirtiesContextTestExecutionListener:106 - Before test method: context [DefaultTestContext@1993335 testClass = DaoTest, testInstance = com.ef.dao.DaoTest@1f1104d, testMethod = testSaveLogLine@DaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@322d26 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2017-10-25 22:23:25 DEBUG JdbcTemplate:869 - Executing prepared SQL update
+2017-10-25 22:23:25 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [insert into logfile (rqdate, ip, request, status, user_agent) values (?, ?, ?, ?, ?)]
+2017-10-25 22:23:25 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2017-10-25 22:23:25 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
+2017-10-25 22:23:25 DEBUG JdbcTemplate:879 - SQL update affected 1 rows
+2017-10-25 22:23:25 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2017-10-25 22:23:25 DEBUG JdbcTemplate:682 - Executing prepared SQL query
+2017-10-25 22:23:25 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [select date, ip, request, status, user_agent from logfile where id = ?]
+2017-10-25 22:23:25 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2017-10-25 22:23:25 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
+2017-10-25 22:23:25 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2017-10-25 22:23:25 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-10-25 22:23:25 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-10-25 22:23:25 DEBUG StandardEnvironment:124 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-10-25 22:23:25 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-10-25 22:23:25 DEBUG DefaultDocumentLoader:73 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-10-25 22:23:26 DEBUG BeansDtdResolver:74 - Found beans DTD [http://www.springframework.org/dtd/spring-beans-2.0.dtd] in classpath: spring-beans-2.0.dtd
+2017-10-25 22:23:26 DEBUG DefaultBeanDefinitionDocumentReader:92 - Loading bean definitions
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;DB2&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;DB2&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;DB2&apos; to allow for resolving potential circular references
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;DB2&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;Derby&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;Derby&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;Derby&apos; to allow for resolving potential circular references
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;Derby&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;H2&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;H2&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;H2&apos; to allow for resolving potential circular references
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;H2&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;HSQL&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;HSQL&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;HSQL&apos; to allow for resolving potential circular references
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;HSQL&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;Informix&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;Informix&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;Informix&apos; to allow for resolving potential circular references
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;Informix&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;MS-SQL&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;MS-SQL&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;MS-SQL&apos; to allow for resolving potential circular references
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;MS-SQL&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;MySQL&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;MySQL&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;MySQL&apos; to allow for resolving potential circular references
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;MySQL&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;Oracle&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;Oracle&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;Oracle&apos; to allow for resolving potential circular references
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;Oracle&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;PostgreSQL&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;PostgreSQL&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;PostgreSQL&apos; to allow for resolving potential circular references
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;PostgreSQL&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;Sybase&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;Sybase&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;Sybase&apos; to allow for resolving potential circular references
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;Sybase&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;Hana&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean &apos;Hana&apos;
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:538 - Eagerly caching bean &apos;Hana&apos; to allow for resolving potential circular references
+2017-10-25 22:23:26 DEBUG DefaultListableBeanFactory:485 - Finished creating instance of bean &apos;Hana&apos;
+2017-10-25 22:23:26 INFO  SQLErrorCodesFactory:127 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-10-25 22:23:26 DEBUG SQLErrorCodesFactory:200 - Looking up default SQLErrorCodes for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@feca44]
+2017-10-25 22:23:26 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2017-10-25 22:23:26 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/server_logging]
+2017-10-25 22:23:26 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2017-10-25 22:23:26 DEBUG SQLErrorCodesFactory:176 - SQL error codes for &apos;MySQL&apos; found
+2017-10-25 22:23:26 DEBUG SQLErrorCodesFactory:244 - Caching SQL error codes for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@feca44]: database product name is &apos;MySQL&apos;
+2017-10-25 22:23:26 DEBUG SQLErrorCodeSQLExceptionTranslator:397 - Translating SQLException with SQL state &apos;42S22&apos;, error code &apos;1054&apos;, message [Unknown column &apos;date&apos; in &apos;field list&apos;]; SQL was [select date, ip, request, status, user_agent from logfile where id = ?] for task [PreparedStatementCallback]
+2017-10-25 22:23:26 DEBUG AbstractDirtiesContextTestExecutionListener:106 - After test method: context [DefaultTestContext@1993335 testClass = DaoTest, testInstance = com.ef.dao.DaoTest@1f1104d, testMethod = testSaveLogLine@DaoTest, testException = org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select date, ip, request, status, user_agent from logfile where id = ?]; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column &apos;date&apos; in &apos;field list&apos;, mergedContextConfiguration = [MergedContextConfiguration@322d26 testClass = DaoTest, locations = &apos;{}&apos;, classes = &apos;{class com.ef.dao.DaoTest$Config}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
 </system-out>
   </testcase>
 </testsuite>
