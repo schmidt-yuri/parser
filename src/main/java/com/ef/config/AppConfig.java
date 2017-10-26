@@ -16,36 +16,36 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 @ComponentScan("com.ef")
 public class AppConfig {
 	
-//	@Bean
-//	public DriverManagerDataSource dataSources(){
-//		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-//		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-//		dataSource.setUrl("jdbc:mysql://localhost:3306/server_logging");
-//		dataSource.setUsername("appuser");
-//		dataSource.setPassword("appuser");
-//		return dataSource;
-//	}
-	
 	@Bean
-	public ComboPooledDataSource dataSources(){
-		ComboPooledDataSource cpds = new ComboPooledDataSource();
-		try {
-			cpds.setDriverClass("com.mysql.jdbc.Driver");
-		} catch (PropertyVetoException e) {
-			System.out.println("There is problem with driver for dataSource");
-			e.printStackTrace();
-		}
-		cpds.setJdbcUrl("jdbc:mysql://localhost:3306/server_logging");
-		cpds.setUser("appuser");
-		cpds.setPassword("appuser");
-		
-		cpds.setMinPoolSize(1);
-		cpds.setAcquireIncrement(5);
-		cpds.setMaxPoolSize(20);
-		cpds.setMaxStatements(180);
-		return cpds;
-		
+	public DriverManagerDataSource dataSources(){
+		DriverManagerDataSource dataSource = new DriverManagerDataSource();
+		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+		dataSource.setUrl("jdbc:mysql://localhost:3306/server_logging");
+		dataSource.setUsername("appuser");
+		dataSource.setPassword("appuser");
+		return dataSource;
 	}
+	
+//	@Bean
+//	public ComboPooledDataSource dataSources(){
+//		ComboPooledDataSource cpds = new ComboPooledDataSource();
+//		try {
+//			cpds.setDriverClass("com.mysql.jdbc.Driver");
+//		} catch (PropertyVetoException e) {
+//			System.out.println("There is problem with driver for dataSource");
+//			e.printStackTrace();
+//		}
+//		cpds.setJdbcUrl("jdbc:mysql://localhost:3306/server_logging");
+//		cpds.setUser("appuser");
+//		cpds.setPassword("appuser");
+//		
+//		cpds.setMinPoolSize(1);
+//		cpds.setAcquireIncrement(5);
+//		cpds.setMaxPoolSize(20);
+//		cpds.setMaxStatements(180);
+//		return cpds;
+//		
+//	}
 	
 	
 	@Bean

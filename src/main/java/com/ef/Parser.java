@@ -13,8 +13,9 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.regex.Pattern;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.apache.log4j.BasicConfigurator;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -39,7 +40,10 @@ public class Parser {
 	
 	public static void main(String[] args) {
 		
-	    Logger logger = LoggerFactory.getLogger(Parser.class);
+	//    Logger logger = LoggerFactory.getLogger(Parser.class);
+	//    BasicConfigurator.configure();
+
+
 
 		
 		//AnnotationConfigApplicationContext
