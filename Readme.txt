@@ -5,11 +5,11 @@ Java
 
 (1) Create a java tool that can parse and load the given log file to MySQL. The delimiter of the log file is pipe (|)
 
-(2) The tool takes "startDate", "duration" and "threshold" as command line arguments. "startDate" is of "yyyy-MM-dd.HH:mm:ss" format, "duration" can take only "hourly", "daily" as inputs and "threshold" can be an integer.
+(2) The tool takes "accesslog", "startDate", "duration" and "threshold" as command line arguments. "startDate" is of "yyyy-MM-dd.HH:mm:ss" format, "duration" can take only "hourly", "daily" as inputs and "threshold" can be an integer, "accesslog" takes path to the log file. 
 
 (3) This is how the tool works:
 
-    java -cp "parser.jar" com.ef.Parser --startDate=2017-01-01.13:00:00 --duration=hourly --threshold=100
+    java -jar c:/parser.jar --accesslog=c:/../../access.log --startDate=2017-01-01.13:00:00 --duration=hourly --threshold=100
 	
 	The tool will find any IPs that made more than 100 requests starting from 2017-01-01.13:00:00 to 2017-01-01.14:00:00 (one hour)
   and print them to console AND also load them to another MySQL table with comments on why it's blocked.
