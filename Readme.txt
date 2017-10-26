@@ -27,6 +27,6 @@ Date Format: "yyyy-MM-dd HH:mm:ss.SSS"
 
 Also, please find attached a log file for your reference. 
 
-The log file assumes 200 as hourly limit and 500 as daily limit, meaning:
+The log file assumes 200 as hourly limit and 500 as daily limit.
 
 
